@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: unset;
+}
+
+:root {
+  --purple-color: #005cff;
+  --text-color: #ffffff;
+  --text-color-main: black;
+  --highlight-color: #ff5722;
+  --bs-bg-custom: #5ec0be;
+}
+
+.bg-custom {
+  background-color: var(--bs-bg-custom);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--text-color-main);
+}
+
+.title_3 {
+  font-size: 30pxpx;
+  font-weight: 600;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-self: start;
+  margin-left: 19%;
+}
+
+.notification {
+  background-color: var(--purple-color);
+  width: 100%;
+  color: var(--text-color);
+  padding: 6px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 1px;
+}
+
+.notification-destaque {
+  background-color: #6220c1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--text-color);
+}
+
+.header_part_top_img {
+  display: flex;
+  flex-direction: row;
+  width: 13%;
+}
+
+.search-input {
+  background-image: url("./publix/Frame 52.svg");
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: 16px;
+  padding-right: 30%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  align-items: center;
+}
+
+.search-input::placeholder {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  font-size: 14px;
+  width: 160%;
+  color: var(--text-color-main);
+}
+
+.header_part_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+}
+
+.profile {
+  color: var(--text-color-main);
+  display: flex;
+  padding: 10px;
+  word-wrap: break-word;
+  gap: 10px;
+  margin-left: 20%;
+}
+
+.profile-text {
+  display: flex;
+  align-self: start;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.greeting {
+  font-size: 14px;
+}
+
+.client-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header_part_bottom_container {
+  padding: 10px;
+}
+
+.header_part_bottom {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 22px;
+  margin: 10px 10% 10px 10%;
+  cursor: pointer;
+  gap: 40px;
+}
+
+.header_item {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+.header_item:hover {
+  background-color: #005cff;
+  border-radius: 10px;
+  color: var(--text-color);
+}
+
+.banner-container {
+  width: 100%;
+  height: 540px;
+  margin-bottom: 10%;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #e7e7ea; /* Cor de fundo cinza */
+}
+
+.banner-image {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.banner-text-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.banner_title-slin {
+  font-weight: 300;
+}
+
+.banner-title {
+  font-size: 120px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.banner-text {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: var(--purple-color);
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.banner-subtitle {
+  font-family: Nunito;
+  color: var(--purple-color);
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.header_item_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.carousel {
+  padding: 2rem 0;
+}
+
+.card {
+  transition: transform 0.3s;
+  margin: 0 1rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
